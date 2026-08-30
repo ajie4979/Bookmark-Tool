@@ -1,0 +1,69 @@
+# 致谢与第三方署名
+
+## 灵感来源（致谢）
+
+本项目在设计过程中参考过以下开源项目，**仅参考了产品思路，零代码复用**，
+本项目许可证与该参考项目无关。
+
+- **bookmark-sage 1.0.0**（Chrome 扩展）
+  作者：袋鼠帝
+  公众号：袋鼠帝AI客栈
+  许可证：Apache License 2.0（LICENSE 文件）/ MIT License（README 声明）
+  用途：参考了"用 AI 给书签推荐目录"这一产品思路
+
+特别致谢。
+
+## 第三方依赖
+
+本项目使用以下第三方库，按许可证要求保留署名。
+
+### PySide6 — LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+Copyright (C) The Qt Company Ltd. and other contributors.
+动态链接使用，符合 LGPLv3 分发要求；详见 docs/设计文档.md 第 14.4 节。
+
+### shiboken6 — LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+Copyright (C) The Qt Company Ltd. and other contributors.
+
+### requests — Apache-2.0
+Copyright (c) Kenneth Reitz and contributors.
+
+### urllib3 — MIT
+Copyright (c) 2008-2020 Andrey Petrov and contributors.
+
+### certifi — MPL-2.0
+This Source Code Form is subject to the terms of the Mozilla Public License.
+
+### charset-normalizer — MIT
+Copyright (c) 2025 TAHRI Ahmed R.
+
+### idna — BSD-3-Clause
+Copyright (c) 2013-2026, Kim Davies and contributors.
+
+### Pillow — HPND (Historical Permission Notice and Disclaimer)
+Copyright © 1997-2011 by Secret Labs AB
+Copyright © 1995-2011 by Fredrik Lundh
+
+### PyInstaller — GPL-2.0-or-later with special exception
+Copyright (c) 2005-2021, PyInstaller Development Team.
+特殊例外条款允许使用 PyInstaller 打包任意许可证的应用程序（含闭源），
+条件是不修改 PyInstaller 自身源码。
+
+### altgraph — MIT
+Copyright (c) 2004 Istvan Albert; Copyright (c) 2006-2010 Bob Ippolito.
+
+### pefile — MIT
+Copyright (c) 2004-2024 Ero Carrera.
+
+### pywin32-ctypes — PSF 风格
+Copyright (c) various contributors; OSI Certified Open Source Software.
+
+### packaging — Apache-2.0 OR BSD
+Copyright (c) Donald Stufft and individual contributors.
+
+### setuptools — MIT
+Copyright (c) Python Packaging Authority and contributors.
+
+---
+
+完整依赖树与版本信息可在 `python -m pip list` 中查看。
+各依赖的完整许可证文本随 PyPI 包分发，安装时存于 `site-packages/<pkg>-*/licenses/`。
