@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.venv/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+
+# PyInstaller
+build/
+dist/
+*.spec
+# 项目打包配置（随仓库共享，覆盖上面的 *.spec）
+!BookmarkTool.spec
+
+# 测试临时产物
+_tmp_test_out/
+
+# 打包临时目录
+_pkg/
+_build/
+
+# 一次性诊断脚本（开发调试用，不进仓库）
+_diag_probe.py
+
+# 打包配置（每个开发者本地不同）
+config.local.json
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# 系统
+Thumbs.db
