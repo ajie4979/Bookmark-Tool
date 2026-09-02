@@ -5,7 +5,7 @@
 
 设计目标：把散乱、重复、失效的浏览器书签，整理成干净、有序、可一键导航的收藏体系。
 
-设计过程中参考过一年前的同名 Chrome 扩展（bookmark-sage 1.0.0），
+设计过程中参考过Chrome 扩展（bookmark-sage 1.0.0），
 但本工具是**完全独立的设计与实现**，零代码继承。详见 [`docs/设计文档.md`](docs/设计文档.md)。
 
 > **作者**：阿杰 · **项目地址**：<https://github.com/ajie4979/Bookmark-Tool>
